@@ -1,0 +1,34 @@
+[22:28:02]  alt:V Server 16.2.8 (release)
+[22:28:02]  Starting Infire RP | РАЗРАБОТКА on [::]:7788
+[22:28:02]  Loading resource core
+[22:28:02] [js]  Infire RP Started 
+[22:28:02]  Loaded resource core
+[22:28:02]  Loading resource dbg_reconnect
+[22:28:02] [js]  Listening for IPC Events in Debug Mode 
+[22:28:02]  Loaded resource dbg_reconnect
+[22:28:02]  Required server permissions:
+[22:28:02]  Optional server permissions:
+[22:28:02]  Starting HTTP server on [::]:7788
+[22:28:02]  Main thread started (ThreadId: 30912)
+[22:28:02]  EntityStreamer thread started (ThreadId: 20836)
+[22:28:02]  SyncSend thread started (ThreadId: 34652)
+[22:28:02]  SyncSend thread started (ThreadId: 25192)
+[22:28:02]  SyncSend thread started (ThreadId: 32992)
+[22:28:02]  SyncSend thread started (ThreadId: 23948)
+[22:28:02]  SyncSend thread started (ThreadId: 33588)
+[22:28:02]  SyncSend thread started (ThreadId: 33800)
+[22:28:02]  SyncSend thread started (ThreadId: 24480)
+[22:28:02]  SyncSend thread started (ThreadId: 33272)
+[22:28:02]  SyncReceive thread started (ThreadId: 33820)
+[22:28:02]  SyncReceive thread started (ThreadId: 37112)
+[22:28:02]  SyncReceive thread started (ThreadId: 26356)
+[22:28:02]  SyncReceive thread started (ThreadId: 22156)
+[22:28:02]  NetworkWorker #1 thread started (ThreadId: 34692)
+[22:28:02]  Console thread started (ThreadId: 35028)
+[22:28:02][Warning]  Server started in debug mode
+[22:42:49] [js]  [1] Sm1r has connected to the server. 
+[22:43:12]  Stopping resource core
+[22:43:12]  Stopped resource core
+[22:43:12]  Stopping resource dbg_reconnect
+[22:43:12]  Stopped resource dbg_reconnect
+[22:43:12]  Server shutdown

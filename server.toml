@@ -1,0 +1,13 @@
+name = 'Infire RP | РАЗРАБОТКА'
+debug = true
+port = 7788
+players = 128
+# password = 'ultra-password'
+announce = false
+# token = 'YOUR_TOKEN'
+gamemode = 'Freeroam'
+website = 'infire-rp.ru'
+language = 'ru'
+description = 'alt:V Sample Server'
+modules = ['js-module', 'js-bytecode-module']
+resources = ['core', 'dbg_reconnect']
