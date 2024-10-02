@@ -1,3 +1,0 @@
-{"dsn":"https://586f9304db234ff7bc949b843d4f92dd@sentry-alt.com/4"}
-{"type":"session","length":219}
-{"init":true,"sid":"de9fb698-7819-475f-0923-63eed659818a","status":"exited","errors":0,"started":"2024-10-01T19:28:02.336Z","duration":910.205,"attrs":{"release":"altv-server@release-16.2.8","environment":"production"}}

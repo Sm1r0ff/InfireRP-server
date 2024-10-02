@@ -1,34 +1,35 @@
-[22:28:02]  alt:V Server 16.2.8 (release)
-[22:28:02]  Starting Infire RP | РАЗРАБОТКА on [::]:7788
-[22:28:02]  Loading resource core
-[22:28:02] [js]  Infire RP Started 
-[22:28:02]  Loaded resource core
-[22:28:02]  Loading resource dbg_reconnect
-[22:28:02] [js]  Listening for IPC Events in Debug Mode 
-[22:28:02]  Loaded resource dbg_reconnect
-[22:28:02]  Required server permissions:
-[22:28:02]  Optional server permissions:
-[22:28:02]  Starting HTTP server on [::]:7788
-[22:28:02]  Main thread started (ThreadId: 30912)
-[22:28:02]  EntityStreamer thread started (ThreadId: 20836)
-[22:28:02]  SyncSend thread started (ThreadId: 34652)
-[22:28:02]  SyncSend thread started (ThreadId: 25192)
-[22:28:02]  SyncSend thread started (ThreadId: 32992)
-[22:28:02]  SyncSend thread started (ThreadId: 23948)
-[22:28:02]  SyncSend thread started (ThreadId: 33588)
-[22:28:02]  SyncSend thread started (ThreadId: 33800)
-[22:28:02]  SyncSend thread started (ThreadId: 24480)
-[22:28:02]  SyncSend thread started (ThreadId: 33272)
-[22:28:02]  SyncReceive thread started (ThreadId: 33820)
-[22:28:02]  SyncReceive thread started (ThreadId: 37112)
-[22:28:02]  SyncReceive thread started (ThreadId: 26356)
-[22:28:02]  SyncReceive thread started (ThreadId: 22156)
-[22:28:02]  NetworkWorker #1 thread started (ThreadId: 34692)
-[22:28:02]  Console thread started (ThreadId: 35028)
-[22:28:02][Warning]  Server started in debug mode
-[22:42:49] [js]  [1] Sm1r has connected to the server. 
-[22:43:12]  Stopping resource core
-[22:43:12]  Stopped resource core
-[22:43:12]  Stopping resource dbg_reconnect
-[22:43:12]  Stopped resource dbg_reconnect
-[22:43:12]  Server shutdown
+[21:05:03]  alt:V Server 16.2.8 (release)
+[21:05:03]  Starting Infire RP | РАЗРАБОТКА on [::]:7788
+[21:05:03]  Loading resource core
+[21:05:03] [js]  Infire RP Started 
+[21:05:03]  Loaded resource core
+[21:05:03]  Loading resource dbg_reconnect
+[21:05:03] [js]  Listening for IPC Events in Debug Mode 
+[21:05:03]  Loaded resource dbg_reconnect
+[21:05:03]  Required server permissions:
+[21:05:03]  Optional server permissions:
+[21:05:03]  Starting HTTP server on [::]:7788
+[21:05:03]  Main thread started (ThreadId: 30888)
+[21:05:03]  EntityStreamer thread started (ThreadId: 20064)
+[21:05:03]  SyncSend thread started (ThreadId: 40728)
+[21:05:03]  SyncSend thread started (ThreadId: 56116)
+[21:05:03]  SyncSend thread started (ThreadId: 18560)
+[21:05:03]  SyncSend thread started (ThreadId: 2436)
+[21:05:03]  SyncSend thread started (ThreadId: 44628)
+[21:05:03]  SyncSend thread started (ThreadId: 62164)
+[21:05:03]  SyncSend thread started (ThreadId: 49752)
+[21:05:03]  SyncSend thread started (ThreadId: 55604)
+[21:05:03]  SyncReceive thread started (ThreadId: 43000)
+[21:05:03]  SyncReceive thread started (ThreadId: 16888)
+[21:05:03]  SyncReceive thread started (ThreadId: 36920)
+[21:05:03]  SyncReceive thread started (ThreadId: 45100)
+[21:05:03]  NetworkWorker #1 thread started (ThreadId: 55880)
+[21:05:03]  Console thread started (ThreadId: 23772)
+[21:05:03][Warning]  Server started in debug mode
+[21:05:04][Warning]  resourceManager.Update() took: 76 ms
+[21:05:07] [js]  [1] Sm1r has connected to the server. 
+[21:05:18]  Stopping resource core
+[21:05:18]  Stopped resource core
+[21:05:18]  Stopping resource dbg_reconnect
+[21:05:18]  Stopped resource dbg_reconnect
+[21:05:18]  Server shutdown
