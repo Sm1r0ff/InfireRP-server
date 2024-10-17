@@ -9,7 +9,7 @@ gamemode = 'Freeroam'
 website = 'infire-rp.ru'
 language = 'ru'
 description = 'alt:V Sample Server'
-modules = ['js-module', 'js-bytecode-module']
+modules = ['js-module']
 resources = ['core', 'webviews']
 
 [js-module]

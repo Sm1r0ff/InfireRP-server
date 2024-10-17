@@ -1,43 +1,47 @@
 import * as alt from 'alt-client';
-import * as native from 'natives';
 import { WebViewEvents } from '../../shared/webviewEvents.js';
 
-const F2_KEY = 113;
 let view: alt.WebView;
 let isFocused = false;
+let isCursor = false;
+
+alt.onServer('Start:WebViews', StartWebView);
+
+export function CursorWebView() {
+    if (isCursor) {
+        alt.showCursor(false);
+        alt.toggleGameControls(true);
+        isCursor = false;
+    } else {
+        alt.showCursor(true);
+        alt.toggleGameControls(false);
+        isCursor = true;
+    }
+}
 
 export function focusWebView() {
     if (isFocused) {
         view.unfocus();
-        view.emit(WebViewEvents.toggleVisibility, false);
-        alt.showCursor(false);
-        alt.toggleGameControls(true);
-        native.triggerScreenblurFadeOut(100);
+        CursorWebView();
         isFocused = false;
     } else {
         view.focus();
-        view.emit(WebViewEvents.toggleVisibility, true);
-        alt.showCursor(true);
-        alt.toggleGameControls(false);
-        native.triggerScreenblurFadeIn(100);
+        CursorWebView();
         isFocused = true;
     }
 }
 
-alt.on('keydown', async (keyCode: number) => {
-    if (keyCode !== F2_KEY) {
-        return;
-    }
-
+export function StartWebView() {
     if (view) {
+        view.emit(WebViewEvents.startWebViews, true);
         focusWebView();
         return;
     }
-
     view = new alt.WebView('http://assets/webviews/index.html');
-    await new Promise((resolve: (...args: any[]) => void) => {
-        view.once('load', resolve);
-    });
+
+    view.emit(WebViewEvents.startWebViews, true);
+
+    view.on(WebViewEvents.cursorWebView, CursorWebView);
 
     focusWebView();
-});
+}

@@ -1,0 +1,27 @@
+.MainContainer{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-color: #121212;
+}
+
+.Container{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1{
+  margin: 0;
+  color: #A4A4A4;
+  font-size: 23px;
+}
+
+.LogoContainer{
+  margin: 25px;
+  min-height: 200px;
+  min-width: 500px;
+}

@@ -1,3 +1,4 @@
 export const WebViewEvents = {
-    toggleVisibility: 'WebView:Toggle:Visibility',
+    startWebViews: 'WebView:Start:WebViews',
+    cursorWebView: 'WebView:Main:Cursor'
 };

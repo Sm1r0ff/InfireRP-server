@@ -1,36 +1,35 @@
-[21:13:26] alt:V Server 16.2.13 (release)
-[21:13:26] Starting Infire RP | РАЗРАБОТКА on [::]:7788
-[21:13:26][Warning] Found multiple executables for module js-module . Using "C:\\Users\\Sm1r\\Documents\\infirerp-server\\modules\\js-module.dll"
-[21:13:26] Loading resource core
-[21:13:26][js] Listening for IPC Events in Debug Mode
-[21:13:27][js] alt:V Server - Boilerplate Started
-[21:13:27] Loaded resource core
-[21:13:27] Loading resource webviews
-[21:13:27] Loaded resource webviews
-[21:13:27] Required server permissions:
-[21:13:27] Optional server permissions:
-[21:13:27] Starting HTTP server on [::]:7788
-[21:13:27] Main thread started (ThreadId: 1484)
-[21:13:27] EntityStreamer thread started (ThreadId: 18196)
-[21:13:27] SyncSend thread started (ThreadId: 12872)
-[21:13:27] SyncSend thread started (ThreadId: 15212)
-[21:13:27] SyncSend thread started (ThreadId: 6724)
-[21:13:27] SyncSend thread started (ThreadId: 15376)
-[21:13:27] SyncReceive thread started (ThreadId: 17484)
-[21:13:27] SyncReceive thread started (ThreadId: 16992)
-[21:13:27] SyncSend thread started (ThreadId: 7028)
-[21:13:27] SyncSend thread started (ThreadId: 14212)
-[21:13:27] SyncSend thread started (ThreadId: 18368)
-[21:13:27] SyncSend thread started (ThreadId: 13128)
-[21:13:27] NetworkWorker #1 thread started (ThreadId: 9680)
-[21:13:27] SyncReceive thread started (ThreadId: 15396)
-[21:13:27] SyncReceive thread started (ThreadId: 15136)
-[21:13:27] Console thread started (ThreadId: 16476)
-[21:13:27][Warning] Server started in debug mode
-[21:13:27][Warning] resourceManager.Update() took: 90 ms
-[21:13:30][js] [1] Sm1r has connected to the server.
-[21:14:15] Stopping resource core
-[21:14:15] Stopped resource core
-[21:14:15] Stopping resource webviews
-[21:14:15] Stopped resource webviews
-[21:14:15] Server shutdown
+[10:01:14] alt:V Server 16.2.13 (release)
+[10:01:14] Starting Infire RP | РАЗРАБОТКА on [::]:7788
+[10:01:14] Loading resource core
+[10:01:14][js] Listening for IPC Events in Debug Mode
+[10:01:14][js] alt:V Server - Boilerplate Started
+[10:01:15] Loaded resource core
+[10:01:15] Loading resource webviews
+[10:01:15] Loaded resource webviews
+[10:01:15] Required server permissions:
+[10:01:15] Optional server permissions:
+[10:01:15] Starting HTTP server on [::]:7788
+[10:01:15] Main thread started (ThreadId: 16268)
+[10:01:15] EntityStreamer thread started (ThreadId: 4784)
+[10:01:15] SyncSend thread started (ThreadId: 21144)
+[10:01:15] SyncSend thread started (ThreadId: 17176)
+[10:01:15] SyncSend thread started (ThreadId: 12108)
+[10:01:15] SyncSend thread started (ThreadId: 7080)
+[10:01:15] SyncSend thread started (ThreadId: 18512)
+[10:01:15] SyncSend thread started (ThreadId: 18092)
+[10:01:15] SyncSend thread started (ThreadId: 7296)
+[10:01:15] SyncSend thread started (ThreadId: 6268)
+[10:01:15] SyncReceive thread started (ThreadId: 9676)
+[10:01:15] SyncReceive thread started (ThreadId: 7744)
+[10:01:15] SyncReceive thread started (ThreadId: 4596)
+[10:01:15] NetworkWorker #1 thread started (ThreadId: 19384)
+[10:01:15] SyncReceive thread started (ThreadId: 16392)
+[10:01:15] Console thread started (ThreadId: 9780)
+[10:01:15][Warning] Server started in debug mode
+[10:01:15][Warning] resourceManager.Update() took: 75 ms
+[10:01:16][js] [1] Sm1r has connected to the server.
+[10:02:52] Stopping resource core
+[10:02:52] Stopped resource core
+[10:02:52] Stopping resource webviews
+[10:02:52] Stopped resource webviews
+[10:02:53] Server shutdown
